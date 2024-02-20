@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalendereinträge erzeugen</title>
+</head>
+<body>
+    <h2>Bitte Daten eingeben</h2>
+    <form action="/submit" method="post">
+		<select id="csv_dateipfad_in" name="csv_dateipfad_in">
+			<option value="kinderimpfplan2023.csv">Kinderimpfplan 2023</option>
+			<option value="demo.csv">Demo/Test</option>
+		</select><br><br>
+        <label for="date">Geburtsdatum:</label>
+        <input type="date" id="eingabedatum" name="eingabedatum"><br><br>
+        <label for="text">Vorname:</label><br>
+        <input type="text" id="postfix" name="postfix"><br><br>
+		<label for="text">Erinnerung:</label><br>
+		<select id="reminder" name="reminder">
+			<option value="-PT7D">1 Woche</option>
+			<option value="-PT14D">2 Wochen</option>
+			<option value="-PT21D">3 Wochen</option>
+			<option value="-PT28D">4 Wochen</option>
+		</select><br><br><br><br>
+        <input type="submit" value="Dateien erzeugen">
+    </form>
+</body>
+</html>
