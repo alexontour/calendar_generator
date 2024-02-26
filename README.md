@@ -14,5 +14,7 @@ Verfügbar als:
 * Python Flask-Anwendung unter: https://alexontour.pythonanywhere.com/
 * Google-Collab-Script
 
+Verwendung in Eigenverantwortung !
+
 ## Beispiel Import Thunderbird
 ![Beispiel-Import der ICS-Datei in Thunderbird](demo_import.JPG)
