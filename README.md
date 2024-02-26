@@ -10,4 +10,4 @@ Verfügbar als:
 * Google-Collab-Script
 
 ## Beispiel Import Thunderbird
-![image info](images/image.png)
+![Beispiel-Import der ICS-Datei in Thunderbird](demo_import.JPG)
