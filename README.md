@@ -5,6 +5,8 @@ Python-Anwendung, die aus einem Startdatum (= Geburtsdatum) und Offsets (+ xx Mo
 * INPUT (CSV): Impfung, Teilimpfung, Offset, Info, Reminder. Diese Infos wurden aus dem Impfkalender für Säuglinge und Kleinkinder der Stadt Wien übernommen (https://www.wien.gv.at/gesundheit/beratung-vorsorge/impfen/kalender/kleinkinder.html)
 * OUTPUT: ICAL, PDF, CSV
 
-Demo verfügbar unter: https://alexontour.pythonanywhere.com/
+Verfügbar als:
+* Python Flask-Anwendung unter: https://alexontour.pythonanywhere.com/
+* Google-Collab-Script
 
 ## Beispiel Import Thunderbird
