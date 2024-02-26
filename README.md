@@ -6,7 +6,7 @@ Python-Anwendung, die aus einem Startdatum (= Geburtsdatum) und Offsets (+ xx Mo
   * Impfung
   * Teilimpfung
   * Offset in Monaten
-  * Info
+  * Infotext (wird im Kalendereintrag angezeigt)
   * Reminder (im ICAL-Format)
 * OUTPUT: ICAL, PDF, CSV (werden im Download-Verzeichnis abgeleget))
 
