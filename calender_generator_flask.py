@@ -146,7 +146,8 @@ def submit():
         path = "/home/alexontour/mysite/download/"
         path_in = "/home/alexontour/mysite/"
         # DEV - Local
-        #path = "download/"
+        path = "download/"
+        path_in =""
 
 
         # Datum/ Schema-CSV-Datei in DataFrame lesen
@@ -205,9 +206,11 @@ def download(filename):
     #PROD
     path = "/home/alexontour/mysite/download/"
     #DEV
-    #path = "C:/Users/User/Documents/GitHub/ical-event-generator/download/"
+    path = "download/"
     return send_file(path + filename, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
+    app.run(port=5000)
+
 
